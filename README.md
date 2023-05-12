@@ -1,6 +1,9 @@
 ### Table of Contents
 **[Documentation](#documentation)**<br>
-**[IfcMapconversion](#ifcmapconversion)**<br>
+**[Software](#software)**<br>
+**[Testfiles](#testfiles)**<br>
+**[Experiments](#experiments)**<br>
+**[Rules & Validation](#rules--validation)**<br>
 
 
 **Georeferencing**
