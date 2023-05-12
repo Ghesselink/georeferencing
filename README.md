@@ -120,6 +120,9 @@ Based on this zone, northings and eastings are calculated with the pyproj module
 - Eastings : 5534449 (+ 5 meters)
 - Back to lang-long(WSG84) would be 51.331496 - 12.352374
 
+
+### Combine
+
 The two files were combined with the blenderBIM 'IfcPatch'. https://blenderbim.org/docs-python/autoapi/ifcpatch/index.html
 Afterwards, they were opened in BIMviewer software (e.g. Solibri, BIMviewer, blenderBIM).
 In all programs, the two UV spheres of both files were visible, but georeferencing was not merged and still contained two instances MapConversions and two IFCProjectedCRS. In BlenderBIM, the georeferencing system of the first file was taken and used as references for the whole patched project.
