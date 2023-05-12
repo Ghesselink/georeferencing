@@ -108,7 +108,8 @@ Not sure whether correct, but I'm using UTM zone 33N for Leipzig:
 - Scale factor for this zone is 0.9996
 - False easting for zone 33N is 500000 meters 
 
-Based on this zone, northings and eastings are calculated with the pyproj module
+### Convert
+Based on this zone, northings and eastings are calculated with the pyproj module https://github.com/Ghesselink/georeferencing/blob/17ecb26bdbf6a294f957a04e80c2a7b7785576c4/convert_coordinates.py#L17
 - Northings : 1828806
 - Eastings : 5534444
 
