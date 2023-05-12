@@ -1,9 +1,24 @@
 ### Table of Contents
-**[Documentation](#documentation)**<br>
-**[Software](#software)**<br>
-**[Testfiles](#testfiles)**<br>
-**[Experiments](#experiments)**<br>
-**[Rules & Validation](#rules--validation)**<br>
+***[Documentation](#documentation)***<br>
+*[IfcMapConversion](#ifcmapconversion)*<br>
+*[IfcMapConversionScaled](#ifcmapconversionscaled)*<br>
+*[IfcRigidOperation](#ifcrigidoperation)*<br>
+*[North](#north)*<br>
+*[Epoch](#epoch)*<br>
+
+***[Software](#software)***<br>
+*[SketchUp](#sketchup)*<br>
+*[ArcGIS](#arcgis)*<br>
+*[Revit](#revit)*<br>
+*[Blender](#blenderblenderbim)*<br>
+
+***[Testfiles](#testfiles)***<br>
+
+***[Experiments](#experiments)***<br>
+
+***[Rules & Validation](#rules--validation)***<br>
+*[Checks](#checks)*<br>
+*[Best Practices](#best-practices)*<br>
 
 
 **Georeferencing**
