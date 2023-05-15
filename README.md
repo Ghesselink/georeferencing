@@ -19,6 +19,8 @@
 ***[Rules & Validation](#rules--validation)***<br>
 *[Checks](#checks)*<br>
 *[Best Practices](#best-practices)*<br>
+*[Ideas](#ideas-related-to-georeferencing)*<br>
+Ideas related to georeferencing
 
 
 **Georeferencing**
@@ -75,6 +77,10 @@ I've used the SketchUp IFC plugin (SketchUp-IFC-Manager) by Jan Brouwer: https:/
 
 ## ArcGIS
 There is a tool to import the contents of one ore more IFC files into a geodatabase feature set. Additionally, there is a merge tool which seems to work only with files that are congruent with eacher other (for example, merging a map from Germany and the Netherlands) or maps from different years. The ability to merge maps of countries as large as the US, Canada and Mexico points to the possibilty to work with different coordinate systems. Until now, I haven't found how this works 'under the hood' and whether it can be used for IFC models. 
+-> Each object has its own georeferencing. Additionaly, there is a project CRS has well
+-> Has inbuild supported CRS systems
+-> Georeferencing to IFC doesn't always seem to work (e.g., using Data Interoperability extension of ArcGIS Pro)
+
 
 ## Revit
 - Moult: 'Revit is for vertical construction, to bringing coordinates back will lead to problems'. 
@@ -141,3 +147,9 @@ Is this expected behavior?
 - A name of a CRS (such as 'MGA56' or 'GDA/MGA56') is used instead of a EPSG number. 
 - Check for georeferencing in IFC2x3, for example in propertySets (is this possible?)
 - EPSG code found only on epsg.io, not in official epsg.org
+
+## Ideas related to georeferencing
+### Tracking georeferencing history
+Performing spatial analysis, such as identifying boundaries which require surface level queries, is impossible as a result. Additionally, tracking histories is challenging because accessibility can only be controlled at the file level and not at the object-level.
+
+However, history is crucial once the physical construction of the building has already commenced, and objects must be accurately located. Georeferencing could be a useful tool for this purpose. One possible solution could be to include an optional field for **'Last date of conversion,'** which must have a value that is more recent than the current value.
