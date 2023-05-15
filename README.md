@@ -20,7 +20,6 @@
 *[Checks](#checks)*<br>
 *[Best Practices](#best-practices)*<br>
 *[Ideas](#ideas-related-to-georeferencing)*<br>
-Ideas related to georeferencing
 
 
 **Georeferencing**
