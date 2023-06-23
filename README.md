@@ -25,7 +25,6 @@
 **Georeferencing**
 Here are some notes I made after my initial review of the georeferencing-related terms in the documentation, attending a meeting with the implementers forum, using various georeferencing-related features of the software, and manually creating and modifying IFC files. 
 The notes contains some remarks, questions, potential additions and ideas for rules or additions for the validation service. 
-Please note that these observations are with limited knowledge. 
 
 # Documentation
 An overview of notes from georeferencing-related terms.
